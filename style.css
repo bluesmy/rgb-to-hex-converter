@@ -1,0 +1,56 @@
+.container {
+  min-height: 100vh;
+  min-width: 250px;
+}
+
+.red, .green, .blue {
+  width: 25vw;
+}
+
+.r, .r-number, .g, .g-number, .b, .b-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.r, .g, .b {
+  min-width: 40px;
+  width: 40px;
+  margin: 0px 10px 20px 0px;
+}
+
+.r-number, .g-number, .b-number {
+  min-width: 80px;
+  width: 80px;
+  margin: 0px 0px 20px 10px;
+}
+
+.r, .r-number {
+  background-color: rgb(255, 0, 0);
+}
+
+.g, .g-number {
+  background-color: rgb(0, 255, 0);
+}
+
+.b, .b-number {
+  color: white;
+  background-color: rgb(0, 0, 255);
+}
+
+.r-slide, .g-slide, .b-slide {
+  width: 20vw;
+}
+
+.hex {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 25vw;
+  min-width: 250px;
+  justify-content: center;
+}
