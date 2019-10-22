@@ -5,6 +5,8 @@
 
 .red, .green, .blue {
   width: 25vw;
+  min-width: 500px;
+  justify-content: center;
 }
 
 .r, .r-number, .g, .g-number, .b, .b-number {
@@ -21,6 +23,12 @@
   width: 40px;
   margin: 0px 10px 20px 0px;
 }
+
+.r-slide, .g-slide, .b-slide {
+  min-width: 100px;
+  margin: 0px 10px 20px 0px;
+}
+
 
 .r-number, .g-number, .b-number {
   min-width: 80px;
@@ -50,7 +58,24 @@
   font-weight: bold;
   color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.3);
-  width: 25vw;
+  width: 35vw;
   min-width: 250px;
   justify-content: center;
+}
+
+
+@media screen and (min-width: 900px) {
+  
+  .red, .green, .blue {
+    width: 400px;
+  }
+
+  .r-slide, .g-slide, .b-slide {
+    width: 300px;
+  }
+  
+  .hex {
+    width: 445px;
+  }
+  
 }
